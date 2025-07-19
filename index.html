@@ -7,11 +7,14 @@
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+
 
     <div class="container">
         <div id="productivity-summary" class="productivity"></div>
@@ -37,6 +40,8 @@
         <div class="input-section">
             <input type="text" id="task-input" placeholder="What do you need to do?" />
             <button onclick="addTask()">➕</button>
+            <button class="edit-btn">✏️ Edit</button>
+
         </div>
         <ul id="task-list"></ul>
     </div>
