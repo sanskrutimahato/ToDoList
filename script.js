@@ -170,3 +170,4 @@ function loadTasks() {
   renderTasks();
   renderProductivity(); // 🆕 add this
 }
+// changes
